@@ -1,0 +1,20 @@
+@font-face {
+  font-family: myFirstFont;
+        src: url(Amiri-Bold.ttf);
+        
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(Cairo-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+}
+
+body{
+	color:blue;
+	font-family: myFirstFont,MySecondFont,myThirdFont,'althawra-fikra-bold';
+	font-size:24px
+}
